@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bla" android:layout_row="4">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ancientchina"
+        android:scaleType = "centerCrop"
+        android:id="@+id/imageViewc" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money: 500"
+
+        android:id="@+id/mun"
+        android:layout_gravity="right|top" />
+
+    <Button
+        android:layout_width="304dp"
+        android:layout_height="251dp"
+        android:text="New Button"
+
+        android:id="@+id/b1"
+        android:onClick="bu1"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="231dp"
+
+        android:text="New Button"
+        android:id="@+id/b2"
+        android:onClick="bu2"
+        android:layout_gravity="left|bottom" />
+
+
+</FrameLayout>

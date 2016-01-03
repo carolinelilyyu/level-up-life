@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bro">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ancientincan"
+        android:scaleType = "centerCrop"
+        android:id="@+id/imageView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sheep-1001"
+        android:id="@+id/sheep"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:onClick="sheep"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food-751"
+        android:onClick="food"
+        android:id="@+id/food"
+        android:layout_alignTop="@+id/sheep"
+        android:layout_toRightOf="@+id/sheep"
+        android:layout_toEndOf="@+id/sheep"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog-1001"
+        android:id="@+id/dog"
+        android:onClick="dogs"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/sheep"
+        android:layout_alignLeft="@+id/sheep"
+        android:layout_alignStart="@+id/sheep" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Games-751"
+        android:id="@+id/games"
+        android:onClick="games"
+        android:layout_alignTop="@+id/dog"
+        android:layout_alignLeft="@+id/instrument"
+        android:layout_alignStart="@+id/instrument" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hat-251"
+        android:id="@+id/hat"
+        android:onClick="hat"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/dog"
+        android:layout_alignStart="@+id/dog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrument-251"
+        android:id="@+id/instrument"
+        android:onClick="instrument"
+        android:layout_alignBaseline="@+id/hat"
+        android:layout_alignBottom="@+id/hat"
+        android:layout_alignLeft="@+id/food"
+        android:layout_alignStart="@+id/food" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money: 500"
+        android:id="@+id/mun"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

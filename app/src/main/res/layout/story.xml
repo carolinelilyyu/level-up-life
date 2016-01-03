@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bate">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ancientafrican"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="282dp"
+        android:id="@+id/imageViewA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bscroll"
+        android:id="@+id/imageViewBS"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="297dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your are a world traveler during ancient
+        times, in search of wonderous artifacts
+        from around the world, to procure
+        these artifacts you'll need
+        money though. To get money
+        you've been doing odd jobs
+        wherever you go. The harder
+        you work in real life, the more
+        work you put into the game as well.
+        So stay fit."
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/imageViewBS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="44dp" />
+</RelativeLayout>

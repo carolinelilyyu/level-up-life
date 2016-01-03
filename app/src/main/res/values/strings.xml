@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LevelUpLife</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter Verification Code</string>
+    <string name="button_send">Get Code</string>
+    <string name="button_not">Nothing</string>
+    <string name="button_go">Verify</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="FitbitCallback">http://fitbit.com/oauth/callback</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_success_transfer">SuccessTransfer</string>
+    <string name="title_activity_pass_param">PassParam</string>
+    <string name="title">Fit Travels</string>
+    <string name="tasks">Tasks</string>
+    <string name="story">Story</string>
+    <string name="collection">Collection</string>
+    <string name="store">Market</string>
+    <string name="title_activity_tasks">Tasks</string>
+    <string name="sheep">Sheep</string>
+    <string name="games">Games</string>
+    <string name="food">Food</string>
+    <string name="instrument">Instrument</string>
+    <string name="dog">Dog</string>
+    <string name="hat">Hat</string>
+    <string name="title_activity_market">Market</string>
+    <string name="title_activity_collection">Collection</string>
+    <string name="task0">task0</string>
+    <string name="task1">task1</string>
+    <string name="task2">task2</string>
+    <string name="task3">task3</string>
+    <string name="money">500</string>
+
+</resources>
